@@ -1,3 +1,4 @@
+#BioIT APP
 Our main goal is to predict the production of the different crops on the peninsula of Spain and the Balearic Islands by training a machine learning model, to estimate production values ​​based on environmental conditions to optimize the use of the territory. With a vision of the future, we are managing to determine the most favorable areas for the different crops as a guideline.
 
 The code is divided in 3 parts, machine learning, map representation and GUI module
