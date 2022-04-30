@@ -14,7 +14,7 @@ class DDBB_processor():
         __init__ ()
             Contructor
 
-        undummify:df
+        undummify:
             Convert pd.dummies to dataframe
         df: dummyfied dataframe
         
@@ -242,7 +242,7 @@ class DDBB_processor():
         #divide the dataframe in 2 to predict dataframe and the geo info dataframe
         data = data_info[["Temperatura","Precipitaciones","Irradiancia","Provincias","Cultivo","Estación"]]
         qgis_info = data_info.drop(labels=["Provincias","Estación","Cultivo","Precipitaciones","Irradiancia","Temperatura"], axis=1)
-        prediction = self.predict(data)
+        prediction = self.predict_model(data)
         prediction_dataframe = pd.DataFrame(prediction,columns=["Prediction"])#add the predicted value to the dataframe
         result = pd.concat([data, qgis_info,prediction_dataframe], axis=1, join="inner") #concat the geo info and the data info
         #self.export_to_xls(result,"prediction_DDBB_"+Estacion+".xlsx") 
