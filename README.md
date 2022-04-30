@@ -10,6 +10,7 @@ pip install xgboost
 pip install folium
 pip install geopandas
 pip install numpy
+````
 
 The code is divided in 3 parts, machine learning, map representation and GUI module
 
