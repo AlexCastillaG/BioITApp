@@ -5,4 +5,13 @@ The code is divided in 3 parts, machine learning, map representation and GUI mod
 
 ![Diagrama BioITApp](https://user-images.githubusercontent.com/39345508/166081785-3a54aaee-a5d2-46b5-8130-ad223461ac2a.png)
 
-There is also 2 types of databases, enviromentals and production which are used to procces the data
+We highly recommend to run the app on Linux, it is also necessary to install those libraries:
+
+````
+pip install PySimpleGUI
+pip install sklearn
+pip install xgboost
+pip install folium
+pip install geopandas
+pip install numpy
+````
