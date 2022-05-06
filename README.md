@@ -1,4 +1,7 @@
 # BioIT APP
+
+https://bioitresearching.wordpress.com/
+
 Our main goal is to predict the production of the different crops on the peninsula of Spain and the Balearic Islands by training a machine learning model, to estimate production values based on environmental conditions to optimize the use of the territory. With a vision of the future, we are managing to determine the most favorable areas for the different crops as a guideline.
 
 We highly recommend to run the app on Linux, it is also necessary to install those libraries:
